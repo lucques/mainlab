@@ -1,0 +1,15 @@
+////////////
+// Import //
+////////////
+
+@import "/modules-shared/template-interbook/scss/screen";
+@import "./partials/common";
+
+// TODO Move
+.klipse-result .CodeMirror-lines {
+    background-color: rgb(218, 218, 218);
+}
+
+main {
+    // background-color:aqua !important; // TODO remove
+}

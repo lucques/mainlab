@@ -1,0 +1,4 @@
+// Mathjax should have no margin-top
+mjx-container[display="true"] {
+    margin-top: 0 !important;
+}

@@ -1,0 +1,2 @@
+- Generated using https://github.com/fariasmateuss/favicon-generator
+- Use `-x` command to produce HTML tags

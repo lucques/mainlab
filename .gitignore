@@ -1,0 +1,12 @@
+# General files
+*.class
+*.*~
+*.css.map
+*.autosave.xopp
+
+# File structure
+deployments/**/target
+deployments/**/docker_volumes
+
+# IDE files
+.vscode
