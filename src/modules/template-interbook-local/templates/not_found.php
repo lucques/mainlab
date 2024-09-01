@@ -10,7 +10,7 @@
             'css_url' => $template->get_css_url(),
         ];
         $placeholders_for_subtemplate = array_merge($placeholders_for_subtemplate_default, $placeholders_overrides);
-        $sub_template = $target->activated_modules['template-interbook'];
+        $sub_template = $syslet->activated_modules['template-interbook'];
         
 
         ////////////
@@ -18,6 +18,6 @@
         ////////////
 
         // Render using sub-template
-        $sub_template->render_not_found($target, $target_ids, $placeholders_for_subtemplate);
+        $sub_template->render_not_found($syslet, $target_ids, $placeholders_for_subtemplate);
     };
 ?>
